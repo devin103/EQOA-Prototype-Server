@@ -1,0 +1,5 @@
+The needed packages for Python3 are;
+- uvloop (This in theory could be removed. Theoretically speeds up asyncio)
+- sqlalchemy
+- sqlalchemy_utils
+- bcrypt
