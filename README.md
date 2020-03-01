@@ -20,4 +20,14 @@ What this is capable of is;
  
 What to do;
  - Clean up alot of the code, add alot of features in current work.
+ - Complete entering world. I believe all that needs to be done is generating a co packet for client
+ - Making this multiplayer, see other players moving around. Make it work well
+   - I believe this will require multiple processes due to python GIL. Thoughts are to use a third party tool for message queues for quicker message passes. This would allow 1 process to process and monitor player locations and push this information to respective clients, quicker then multiprocess python queues
+ 
+ - Clean up multi-player capabilities and make it smooth.
+ - Begin developing map meshes for server to monitor characters over.
+ - Once meshes are created, begin some NPC trials and AI testing. 
+ - Start adding other opcodes for processing, and lastly, combat.
+
+What to do is much more advanced then that, but I made it fairly high level for ease of understanding. I believe that once in world, developing the multiplayer aspect and making other players appear on clients smoothly is a very critical step moving forward, and quite possibly would be one of the most difficult to be accomplished, becoming a critical milestone.
  
