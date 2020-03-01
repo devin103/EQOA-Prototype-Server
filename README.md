@@ -44,3 +44,5 @@ Independently start up;
  - EQOA-Prototype-Server/groundWork/startEQOA_v4_2.py
  - EQOA-Prototype-Server/worldServerManager/worldServerManager.py
  - EQOA-Prototype-Server/loginserver2/LoginServer3.py
+ 
+ "Pre-made" characters can be found and entered into the database utilizing (EQOA-Prototype-Server/groundWork/ProcessCoreIO/characterSelect.py) and uncommenting the last 3 lines. Running that file should input a few characters to the database that should line up with your account you make. Don't forget to comment those lines back out after the data has been entered. :)
