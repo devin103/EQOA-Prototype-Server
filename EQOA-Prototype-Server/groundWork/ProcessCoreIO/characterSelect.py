@@ -270,7 +270,7 @@ class createTestCharacters:
                              
         
     def create(self):
-        ''' 
+        
         #Inputs Characters into database from list
         for i in range(len(self.characters)):
             print('Working on {}.'.format(self.characters[i][0]))
@@ -406,7 +406,7 @@ class createTestCharacters:
                 print(str(e))
                  
         print('Weapon Hotbars entered into Database')
-        '''
+        
         for i in range(len(self.hotkeys)):
             hots = Hotkeys(charid       = self.hotkeys[i][0],
                            direction    = self.hotkeys[i][1],
