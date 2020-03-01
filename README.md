@@ -5,7 +5,7 @@ A very rough, and honestly probably not great, prototype server for the EQOA rev
 Thats a good question. This would be a rough attempt at a prototype for the EQOA revival ambitions. While it may lack a lot of "features", and the code may not be very pretty (Sorry, I'm no expert), it accomplishes some key functions such as an account login server. A decent starting point for a world server and character select code base. The character select and world select displays some of the key functions that would likely need to be found within the true game server. Again, alot of things are missing, and it may not be very optimized or pretty. Alot of work I have mostly done on my own after a certain point.
 
 ## Why now?
-I'm tired. This group started with a few people, everyone with a common goal and aspirations, let's bring this game back. Overtime we have gotten busy and has led to us making very minimal progress. 
+This group started with a few people, everyone with a common goal and aspirations, let's bring this game back. Overtime we have gotten busy and has led to us making very minimal progress. 
 
 Ben Turi and I have done a lot of work on this, which may or may not be seen. Ben has become extremely busy in real life, and my time is very limited. Over the last few months I have built onto the report system framework Ben left behind to "create" worlds, reach character select (With characters pulled from a database) and even begin (And I think have "completed") the memory dump process, which should be right at the point of entering the world. 
 
@@ -29,5 +29,18 @@ What to do;
  - Once meshes are created, begin some NPC trials and AI testing. 
  - Start adding other opcodes for processing, and lastly, combat.
 
-What to do is much more advanced then that, but I made it fairly high level for ease of understanding. I believe that once in world, developing the multiplayer aspect and making other players appear on clients smoothly is a very critical step moving forward, and quite possibly would be one of the most difficult to be accomplished, becoming a critical milestone.
+What to do is much more advanced then that, but I made it fairly high level for ease of understanding. I believe that once in world, developing the multiplayer aspect and making other players appear on clients smoothly is a very critical step moving forward, and quite possibly would be one of the most difficult to be accomplished, becoming a critical milestone. Once this is completed, I believe everything else should follow suite much easier.
+
+## How do I run the test server?
  
+  - Python3 and required packages (Seen in the requirements.txt)
+  - Mariadb (Other types may work but this is the database we have chosen to use)
+    - Creating a user within MariaDB with admin privileges (Just easier for testing)
+    - If this is setup right and username/password entered into config file, databases are built in to be made if they do not exist
+  - Check the config file within the config folder, information will need to be entered there.
+
+Independently start up;
+ - EQOA-Prototype-Server/groundWork/startEQOA_v4.py
+ - EQOA-Prototype-Server/groundWork/startEQOA_v4_2.py
+ - EQOA-Prototype-Server/worldServerManager/worldServerManager.py
+ - EQOA-Prototype-Server/loginserver2/LoginServer3.py
