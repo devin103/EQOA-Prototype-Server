@@ -33,13 +33,13 @@ What to do is much more advanced then that, but I made it fairly high level for 
 
 ## How do I run the test server?
  
- ###Client Setup
+ ### Client Setup
   - PCSX2 setup can be found here; http://wiki.eqoarevival.com/index.php/Client_Setup
   - Need to find the EQOA frontiers iso on your own, additional may want to get the network adapter iso
   - Have a DNS redirect(Example here; http://wiki.eqoarevival.com/index.php/Server_Setup_Windows#DNS_Server or useful on linux; https://github.com/Trackbool/DerpNSpoof)
   - Lastly, an http serve will be needed which can be located here; http://wiki.eqoarevival.com/index.php/Server_Setup_Windows#HTTP_Server or can use pythons built in http serve
  
- ###Server setup
+ ### Server setup
   - Python3 and required packages (Seen in the requirements.txt)
   - Mariadb (Other types may work but this is the database we have chosen to use)
     - Creating a user within MariaDB with admin privileges (Just easier for testing)
