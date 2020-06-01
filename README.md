@@ -1,4 +1,4 @@
-###Colin Please check facebook or discord!
+### Colin Please check facebook or discord!
 Been messaging you :)
 
 # EQOA-Prototype-Server
