@@ -1,3 +1,5 @@
+Decided to open this as the original developer/collaborator with me has been gone for over a year now. There is no license, or guarantee to what is provided here.
+
 # EQOA-Prototype-Server
 A very rough, and honestly probably not great, prototype server for the EQOA revival. Using Python3 and Mariadb for the database, it is possible to get through Account Login (Create account, login, etc). Up to World Select , through character select(Which is tied to account creation and characters on account.) In to entering world.
 
